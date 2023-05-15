@@ -21,10 +21,10 @@
             <li><a href="contact.html">Contacts</a></li>
           </ul>
         </nav>
-        <a href="tel:+380441111111">+38 044 111 11 11</a>
-        <button>BOOK A SERVICE</button>
-        <section>
+        <button class="button">BOOK A SERVICE</button>
+        <aside>
           <a
+            class="social-link"
             href="https://youtube.com"
             target="_blank"
             rel="noopener noreferrer nofollow"
@@ -32,6 +32,7 @@
             Youtube</a
           >
           <a
+            class="social-link active"
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer nofollow"
@@ -39,13 +40,17 @@
             Instagram</a
           >
           <img src="images/header_section_divider.png" alt="|" />
-        </section>
+        </aside>
+        <a href="tel:+380441111111">+38 044 111 11 11</a>
       </header>
+
+      <!--Main Content-->
       <main>
-        <section>
+        <!--Hero Section-->
+        <section class="section hero-section">
           <img src="images/landing-dash.png" alt="-" />
-          <h3>A hair salon for men in Kyiv</h3>
-          <h1>BarberShop</h1>
+          <h3 class="section-sub-heading">A hair salon for man in Kyiv</h3>
+          <h1 class="hero-heading">BarberShop</h1>
           <p>
             We are experts in trendy men's haircuts. <br />
             We work quickly, carefully, and tastefully.
@@ -53,30 +58,35 @@
           <button>Prev</button>
           <button>Next</button>
         </section>
-        <section>
+
+        <!--About-->
+        <section class="section section-with-light-bg">
           <img src="images/img1.png" alt="Frizer tunde barba" />
           <img src="images/img2.png" alt="Frizer taie barba" />
           <img src="images/about-line.png" alt="-" width="60px" height="1px" />
-          <h3>About</h3>
+          <h3 class="section-sub-heading">About</h3>
           <h2>The Best Barbershop in Your City</h2>
           <p>
             If you want to add more confidence to your image, you are definitely
             in the right place.
           </p>
-          <p>
+          <p class="small-text">
             We are a team that never rests on its laurels and yearns for change.
             And once you fall into the hands of our master, you will never be
             the same again. We are a team that is always on the same wavelength
             with clients. Therefore, we are always ready to improve everyone who
             comes to us!
           </p>
-          <button>BOOK A SERVICE</button>
+          <button class="button">BOOK A SERVICE</button>
         </section>
+
         <!-- Services and Prices -->
-        <section>
-          <h3>Spend time in the company of the best craftsmen</h3>
+        <section class="section">
+          <h3 class="section-sub-heading">
+            Spend time in the company of the best craftsmen
+          </h3>
           <h2>Services and Prices</h2>
-          <ul>
+          <ul class="services-list">
             <li>
               <span>Men's Haircut</span>
               <span>from 300 UAH</span>
@@ -112,10 +122,11 @@
               <span>from 200 UAH</span>
             </li>
           </ul>
-          <button>BOOK A SERVICE</button>
+          <button class="button">BOOK A SERVICE</button>
         </section>
+
         <!--Old School-->
-        <section>
+        <section class="section section-with-light-bg">
           <ul>
             <li>
               <span>600</span><sup>+</sup>
@@ -134,7 +145,7 @@
             </li>
           </ul>
           <article>
-            <h3>OLD SCHOOL</h3>
+            <h3 class="section-sub-heading">OLD SCHOOL</h3>
             <h2>Why do they come to us?</h2>
             <p>
               Only good things are said about us. But it is better &#x2028;to
@@ -144,10 +155,12 @@
         </section>
 
         <!--Our Barbers-->
-        <section>
-          <h3>FOR TRUE CONNOISSEURS OF THE ATMOSPHERE</h3>
+        <section class="section section-with-light-bg section-with-gray-bg">
+          <h3 class="section-sub-heading">
+            FOR TRUE CONNOISSEURS OF THE ATMOSPHERE
+          </h3>
           <h2>Our Barbers</h2>
-          <ul>
+          <ul class="barbers-list">
             <li>
               <img
                 src="./images/barber_john-smith.png"
@@ -157,8 +170,7 @@
               John Smit <br />
               <em>Extreme Barber</em>
             </li>
-          </ul>
-          <ul>
+
             <li>
               <img
                 src="./images/barber_michele-doe.png"
@@ -168,8 +180,7 @@
               Michele Doe <br />
               <em>Extreme Barber</em>
             </li>
-          </ul>
-          <ul>
+
             <li>
               <img
                 src="./images/barber_alan-black.png"
@@ -181,9 +192,10 @@
             </li>
           </ul>
         </section>
+
         <!--Motto-->
-        <section>
-          <h3>In Latin, "barba" means "beard"</h3>
+        <section class="section section-with-light-bg">
+          <h3 class="section-sub-heading">In Latin, "barba" means "beard"</h3>
           <ul>
             <!--TODO Adauga si celelate imagini-->
             <li>
@@ -193,7 +205,7 @@
         </section>
 
         <!--Contacts-->
-        <section>
+        <section class="section">
           <h2>Contacts</h2>
           <address>
             <span
@@ -201,7 +213,7 @@
               08132</span
             >
             <br />
-            <a href="tel:+380441111111"
+            <a class="no-underline" href="tel:+380441111111"
               ><img src="./images/phone.svg" />+38 044 111 11 11</a
             >
             <br />
@@ -216,6 +228,8 @@
           </p>
         </section>
       </main>
+
+      <!--Footer-->
       <footer>
         <span> &#169; Copyright 2022</span>
         <ul>
